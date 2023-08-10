@@ -1,3 +1,3 @@
-## regarding Data
+## News classifier using Naive Bayes
+In The jupyter file model building and fitting is done. later in the python using streamlit the deployment of the model is done with model and vectorizer pickle file.
 
-The News data contain 0, 1 2 3 as output where 0 is Political,1 is Technology,2 is entertainment and 3 is bussiness
