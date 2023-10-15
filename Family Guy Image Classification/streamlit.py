@@ -10,9 +10,7 @@ st.set_option('deprecation.showfileUploaderEncoding',False)
 def load_model(path):
     model=pickle.load(open(path,"rb"))
     return model
-RandomForest=load_model(r"C:\\Users\\bisht\\OneDrive\\Desktop\\Family guy\\model.pkl")
-SVC=load_model(r"C:\\Users\\bisht\\OneDrive\\Desktop\\Family guy\\sv.pkl")
-LogisticRegression=load_model(r"C:\\Users\\bisht\\OneDrive\\Desktop\\Family guy\\lr.pkl")
+SVC=load_model(r"C:\\Users\\bisht\\OneDrive\\Desktop\\Family guy\\Family Guy Image Classification\\sv.pkl")
 st.write("""
          #FamilyGuy Image Classification
          """
