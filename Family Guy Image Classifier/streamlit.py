@@ -6,14 +6,13 @@ import torchvision.transforms as transforms
 img2vec = Img2Vec()
 
 
-st.set_option('deprecation.showfileUploaderEncoding',False)
-@st.cache(allow_output_mutation=True)
+
 def load_model(path):
     model=pickle.load(open(path,"rb"))
     return model
-SVC=load_model(r"C:\\Users\\bisht\\OneDrive\\Desktop\\Family guy\\Family Guy Image Classification\\lr.pkl")
+SVC=load_model(r"C:\Users\bisht\OneDrive\Desktop\Family guy\Family Guy Image Classifier\sv.pkl")
 st.write("""
-         #FamilyGuy Image Classification
+         # FamilyGuy Image Classification
          """
          )
 file=st.file_uploader('Please upload an character image',type=['jpg','png'])
